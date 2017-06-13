@@ -45,7 +45,6 @@ public class MainActivity extends AppCompatActivity {
             Log.i("MainActivity", "mBoundService.getTimestamp(): "+mBoundService.getTimestamp());
             tvTimestamp.setText(mBoundService.getTimestamp());
         }
-
     }
 
     @OnClick(R.id.btStopService)
